@@ -422,8 +422,6 @@ will return group ban list
 *Only owner can use res,setowner,promote,demote and log commands
 
 ]]
-gpsupport_text = [[ link group
-https://telegram.me/joinchat/Cn_pGAZjiDuXgrqEeE9c3g ]]
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
