@@ -316,13 +316,13 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kk [username|id]
+!k [username|id]
 You can also do it by reply
 
-!kb [ username|id]
+!b [ username|id]
 You can also do it by reply
 
-!unkb [id]
+!unb [id]
 You can also do it by reply
 
 !who
@@ -406,7 +406,7 @@ returns user id
 !log
 will return group logs
 
-!kblist
+!blist
 will return group ban list
 
 !telebumper
