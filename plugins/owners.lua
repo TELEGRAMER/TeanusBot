@@ -131,7 +131,7 @@ local function run(msg, matches)
       savelog(matches[1], name.." ["..msg.from.id.."] banned user ".. matches[3])
       return 'User '..user_id..' banned'
     end
-    if matches[2] == 'unban' then
+    if matches[2] == 'unb' then
     if tonumber(matches[3]) == tonumber(our_id) then return false end
       local chat_id = matches[1]
       if not is_owner2(msg.from.id, chat_id) then
@@ -147,7 +147,7 @@ local function run(msg, matches)
       savelog(matches[1], name.." ["..msg.from.id.."] unbanned user ".. matches[3])
       return 'User '..user_id..' unbanned'
     end
-    if matches[2] == 'kick' then
+    if matches[2] == 'k' then
       local chat_id = matches[1]
       if not is_owner2(msg.from.id, chat_id) then
         return "You are not the owner of this group"
