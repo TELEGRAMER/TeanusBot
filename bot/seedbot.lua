@@ -221,29 +221,23 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {100096055,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
+    about_text = [[Telebumper v1
+        
+http://s7.picofile.com/file/8234722668/Bumper
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@kiarash_gh14 
+@Xx_MaMad_ahrimanam_xX
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+ID Bot:
+@telebumper
+
+ID channel
+@bumperchannel
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -322,13 +316,13 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+!kk [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+!kb [ username|id]
 You can also do it by reply
 
-!unban [id]
+!unkb [id]
 You can also do it by reply
 
 !who
@@ -412,8 +406,10 @@ returns user id
 !log
 will return group logs
 
-!banlist
+!kblist
 will return group ban list
+
+!telebumper
 
 **U can use both "/" and "!" 
 
@@ -426,6 +422,8 @@ will return group ban list
 *Only owner can use res,setowner,promote,demote and log commands
 
 ]]
+gpsupport_text = [[ link group
+https://telegram.me/joinchat/Cn_pGAZjiDuXgrqEeE9c3g ]]
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
