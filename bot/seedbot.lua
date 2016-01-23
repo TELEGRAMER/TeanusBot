@@ -242,10 +242,10 @@ ID channel
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
+!cg [Name]
 Create a group
 
-!createrealm [Name]
+!cr [Name]
 Create a realm
 
 !setname [Name]
@@ -278,10 +278,10 @@ Kick all memebers and delete group
 !kill realm [RealmID]
 Kick all members and delete realm
 
-!addadmin [id|username]
+!ad [id|username]
 Promote an admin by id OR username *Sudo only
 
-!removeadmin [id|username]
+!rd [id|username]
 Demote an admin by id OR username *Sudo only
 
 !list groups
@@ -331,10 +331,10 @@ Members list
 !modlist
 Moderators list
 
-!promote [username]
+!p [username]
 Promote someone
 
-!demote [username]
+!d [username]
 Demote someone
 
 !kickme
