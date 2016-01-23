@@ -230,7 +230,7 @@ http://s7.picofile.com/file/8234722668/Bumper
 
 Admins
 @kiarash_gh14 
-@Xx_MaMad_ahrimanam_xX
+@Mohammadshadow
 
 
 ID Bot:
@@ -409,7 +409,7 @@ will return group logs
 !blist
 will return group ban list
 
-!telebumper
+!bumper
 
 **U can use both "/" and "!" 
 
