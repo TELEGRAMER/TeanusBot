@@ -311,7 +311,7 @@ return {
     "^(changeabout) (%d+) (.*)$",
     "^(changerules) (%d+) (.*)$",
     "^(changename) (%d+) (.*)$",
-		"^[!/](loggroup) (%d+)$"
+		"^(loggroup) (%d+)$"
   },
   run = run
 }
