@@ -228,11 +228,13 @@ function create_config( )
         
 http://s7.picofile.com/file/8234722668/Bumper
 
-Admins
+Sudo:
 @kiarash_gh14 
+
+Admin:
 @Mohammadshadow
-
-
+@bumperadmin
+@Xx_mamad_ahriman_xX
 ID Bot:
 @telebumper
 
@@ -242,68 +244,68 @@ ID channel
     help_text_realm = [[
 Realm Commands:
 
-!cg [Name]
+cg [Name]
 Create a group
 
-!cr [Name]
+cr [Name]
 Create a realm
 
-!setname [Name]
+setname [Name]
 Set realm name
 
-!setabout [GroupID] [Text]
+setabout [GroupID] [Text]
 Set a group's about text
 
-!setrules [GroupID] [Text]
+setrules [GroupID] [Text]
 Set a group's rules
 
-!lock [GroupID] [setting]
+lock [GroupID] [setting]
 Lock a group's setting
 
-!unlock [GroupID] [setting]
+unlock [GroupID] [setting]
 Unock a group's setting
 
-!wholist
+wholist
 Get a list of members in group/realm
 
-!who
+who
 Get a file of members in group/realm
 
-!type
+type
 Get group type
 
-!kill chat [GroupID]
+kill chat [GroupID]
 Kick all memebers and delete group
 
-!kill realm [RealmID]
+kill realm [RealmID]
 Kick all members and delete realm
 
-!ad [id|username]
+ad [id|username]
 Promote an admin by id OR username *Sudo only
 
-!rd [id|username]
+rd [id|username]
 Demote an admin by id OR username *Sudo only
 
-!list groups
+list groups
 Get a list of all groups
 
-!list realms
+list realms
 Get a list of all realms
 
-!log
+log
 Grt a logfile of current group or realm
 
-!broadcast [text]
-!broadcast Hello !
+broadcast [text]
+broadcast Hello !
 Send text to all groups
 Only sudo users can run this command
 
-!br [group_id] [text]
-!br 123456789 Hello !
+br [group_id] [text]
+br 123456789 Hello !
 This command will send text to [group_id]
 
 
-**U can use both "/" and "!" 
+**U cant use both "/" and "!" 
 
 
 *Only admins and sudo can add bots in group
@@ -316,102 +318,102 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!k [username|id]
+k [username|id]
 You can also do it by reply
 
-!b [ username|id]
+b [ username|id]
 You can also do it by reply
 
-!unb [id]
+unb [id]
 You can also do it by reply
 
-!who
+who
 Members list
 
-!modlist
+modlist
 Moderators list
 
-!p [username]
+p [username]
 Promote someone
 
-!d [username]
+d [username]
 Demote someone
 
-!kickme
+kickme
 Will kick user
 
-!about
+about
 Group description
 
-!setphoto
+setphoto
 Set and locks group photo
 
-!setname [name]
+setname [name]
 Set group name
 
-!rules
+rules
 Group rules
 
-!id
+id
 return group id or user id
 
-!help
+help
 
-!lock [member|name|bots|leave]	
+lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
 
-!set rules <text>
+set rules <text>
 Set <text> as rules
 
-!set about <text>
+set about <text>
 Set <text> as about
 
-!settings
+settings
 Returns group settings
 
-!newlink
+newlink
 create/revoke your group link
 
-!link
+link
 returns group link
 
-!owner
+owner
 returns group owner id
 
-!setowner [id]
+setowner [id]
 Will set id as owner
 
-!setflood [value]
+setflood [value]
 Set [value] as flood sensitivity
 
-!stats
+stats
 Simple message statistics
 
-!save [value] <text>
+save [value] <text>
 Save <text> as [value]
 
-!get [value]
+get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+res [username]
 returns user id
-"!res @username"
+"res @username"
 
-!log
+log
 will return group logs
 
-!blist
+blist
 will return group ban list
 
-!bumper
+bumper
 
-**U can use both "/" and "!" 
+**U cant use both "/" and "!" 
 
 
 *Only owner and mods can add bots in group
