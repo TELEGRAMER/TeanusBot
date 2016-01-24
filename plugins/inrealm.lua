@@ -654,26 +654,26 @@ end
 
 return {
   patterns = {
-    "^[!/](cg) (.*)$",
-    "^[!/](cr) (.*)$",
-    "^[!/](setabout) (%d+) (.*)$",
-    "^[!/](setrules) (%d+) (.*)$",
-    "^[!/](setname) (.*)$",
-    "^[!/](setgpname) (%d+) (.*)$",
-    "^[!/](setname) (%d+) (.*)$",
-        "^[!/](lock) (%d+) (.*)$",
-    "^[!/](unlock) (%d+) (.*)$",
-    "^[!/](setting) (%d+)$",
-        "^[!/](wholist)$",
-        "^[!/](who)$",
-        "^[!/](type)$",
-    "^[!/](kill) (chat) (%d+)$",
-    "^[!/](kill) (realm) (%d+)$",
-    "^[!/](ad) (.*)$", -- sudoers only
-    "^[!/](rd) (.*)$", -- sudoers only
-    "^[!/](list) (.*)$",
-        "^[!/](log)$",
-        "^[!/](help)$",
+    "^(cg) (.*)$",
+    "^(cr) (.*)$",
+    "^(setabout) (%d+) (.*)$",
+    "^(setrules) (%d+) (.*)$",
+    "^(setname) (.*)$",
+    "^(setgpname) (%d+) (.*)$",
+    "^(setname) (%d+) (.*)$",
+        "^(lock) (%d+) (.*)$",
+    "^(unlock) (%d+) (.*)$",
+    "^(setting) (%d+)$",
+        "^(wholist)$",
+        "^(who)$",
+        "^(type)$",
+    "^(kill) (chat) (%d+)$",
+    "^(kill) (realm) (%d+)$",
+    "^(ad) (.*)$", -- sudoers only
+    "^(rd) (.*)$", -- sudoers only
+    "^(list) (.*)$",
+        "^(log)$",
+        "^(help)$",
         "^!!tgservice (.+)$",
   },
   run = run
