@@ -231,10 +231,6 @@ http://s7.picofile.com/file/8234722668/Bumper
 Sudo:
 @kiarash_gh14 
 
-Admin:
-@Mohammadshadow
-@bumperadmin
-@Xx_mamad_ahriman_xX
 ID Bot:
 @telebumper
 
@@ -244,25 +240,25 @@ ID channel
     help_text_realm = [[
 Realm Commands:
 
-cg [Name]
+cg (creategroup)[Name]
 Create a group
 
-cr [Name]
+cr (createrealm)[Name]
 Create a realm
 
-setname [Name]
+sn (setname) [Name]
 Set realm name
 
-setabout [GroupID] [Text]
+sa (setabout)[GroupID] [Text]
 Set a group's about text
 
-setrules [GroupID] [Text]
+sr (setrules)[GroupID] [Text]
 Set a group's rules
 
-lock [GroupID] [setting]
+l (lock)[GroupID] [setting]
 Lock a group's setting
 
-unlock [GroupID] [setting]
+unl (unlock)[GroupID] [setting]
 Unock a group's setting
 
 wholist
@@ -274,16 +270,16 @@ Get a file of members in group/realm
 type
 Get group type
 
-kill chat [GroupID]
+k c (kill chat)[GroupID]
 Kick all memebers and delete group
 
-kill realm [RealmID]
+k r (killrealm)[RealmID]
 Kick all members and delete realm
 
-ad [id|username]
+ad (addadmin)[id|username]
 Promote an admin by id OR username *Sudo only
 
-rd [id|username]
+rd (reamoveadmin)[id|username]
 Demote an admin by id OR username *Sudo only
 
 list groups
@@ -318,37 +314,37 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-k [username|id]
+k (kick)[username|id]
 You can also do it by reply
 
-b [ username|id]
+b (ban)[username|id]
 You can also do it by reply
 
-unb [id]
+unb (unban)[id]
 You can also do it by reply
 
 who
 Members list
 
-modlist
+plist (modlis)
 Moderators list
 
-p [username]
+p (promote)[username]
 Promote someone
 
-d [username]
+d (demote)[username]
 Demote someone
 
-kickme
+!kickme
 Will kick user
 
 about
 Group description
 
-setphoto
+sp (setphoto)
 Set and locks group photo
 
-setname [name]
+sn (setname)[name]
 Set group name
 
 rules
@@ -357,36 +353,36 @@ Group rules
 id
 return group id or user id
 
-help
+h (help)
 
-lock [member|name|bots|leave]	
+l (lock) [m(member)|n(name)|b(bots)|l(leave)]	
 Locks [member|name|bots|leaveing] 
 
-unlock [member|name|bots|leave]
+unl [m(member)|n(name)|b(bots)|l(leave)]
 Unlocks [member|name|bots|leaving]
 
-set rules <text>
+s r (set rules)<text>
 Set <text> as rules
 
-set about <text>
+s a (setabout)<text>
 Set <text> as about
 
-settings
+s (settings)
 Returns group settings
 
-newlink
+nl (newlink)
 create/revoke your group link
 
-link
+l (link)
 returns group link
 
 owner
 returns group owner id
 
-setowner [id]
+so (setowner)[id]
 Will set id as owner
 
-setflood [value]
+sf (setflood)[value]
 Set [value] as flood sensitivity
 
 stats
@@ -398,7 +394,7 @@ Save <text> as [value]
 get [value]
 Returns text of [value]
 
-clean [modlist|rules|about]
+c (clean)[plist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
 res [username]
@@ -408,7 +404,7 @@ returns user id
 log
 will return group logs
 
-blist
+blist (banlist)
 will return group ban list
 
 bumper
