@@ -189,7 +189,7 @@ local function show_group_settingsmod(msg, data, target)
   	local data = load_data(_config.moderation.data)
     if data[tostring(msg.to.id)] then
      	if data[tostring(msg.to.id)]['st']['f_msg_max'] then
-        	NUM_MSG_MAX = tonumber(data[tostring(msg.to.id)]['settings']['f_msg_max'])
+        	NUM_MSG_MAX = tonumber(data[tostring(msg.to.id)]['st']['f_msg_max'])
         	print('custom'..NUM_MSG_MAX)
       	else 
         	NUM_MSG_MAX = 3
@@ -197,11 +197,11 @@ local function show_group_settingsmod(msg, data, target)
     end
     local bots_protection = "Y"
     if data[tostring(msg.to.id)]['st']['l_b'] then
-    	bots_protection = data[tostring(msg.to.id)]['settings']['lock_bots']
+    	bots_protection = data[tostring(msg.to.id)]['st']['l_b']
    	end
     local leave_ban = "n"
     if data[tostring(msg.to.id)]['st']['l_b'] then
-    	leave_ban = data[tostring(msg.to.id)]['settings']['l_b']
+    	leave_ban = data[tostring(msg.to.id)]['st']['l_b']
    	end
   local settings = data[tostring(target)]['s']
   local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group member : "..settings.lock_member.."\nLock group leave : "..leave_ban.."\nflood sensitivity : "..NUM_MSG_MAX.."\nBot protection : "..bots_protection--"\nPublic: "..public
