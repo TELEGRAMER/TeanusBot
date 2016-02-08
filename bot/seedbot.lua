@@ -221,21 +221,22 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {100096055,0,tonumber(our_id)},--Sudo users
+    sudo_users = {119888035(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Telebumper v1
-        
-http://s7.picofile.com/file/8234722668/Bumper
+  
 
 Sudo:
-@kiarash_gh14 
+@ArIaNtG
+
+Admin:
+@Xx_SHIELD_ATILA_DEVILS_xX
 
 ID Bot:
-@telebumper
+@TeleTeanus
 
 ID channel
-@bumperchannel
+@TeanusChannel
 ]],
     help_text_realm = [[
 Realm Commands:
