@@ -221,13 +221,13 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {119888035(our_id)},--Sudo users
+    sudo_users = {119888035},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
   
 
 Sudo:
-@ArIaNtG
+@ArIaNwIlSoN
 
 Admin:
 @Xx_SHIELD_ATILA_DEVILS_xX
